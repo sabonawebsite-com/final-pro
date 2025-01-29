@@ -1,0 +1,68 @@
+.live-stock-itme{
+    border-radius: 15px;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(54, 53, 53);
+    transition: 0.4s;
+    animation: fadeIn 1s;
+}
+.live-stock-item-image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.live-stock-item-ifo{
+    padding: 20px;
+    
+}
+.live-stock-item-rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.live-stock-item-rating p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.live-stock-item-rating img{
+    width: 70px;
+}
+.live-stock-item-description{
+    font-size: 12px;
+    color: rgb(87, 84, 84);
+}
+.live-stock-item-price{
+    margin:10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: tomato;
+}
+.live-stock-item-counter{
+    position: relative;
+}
+.live-stock-item-counter.add{
+    position: absolute;
+border-radius: 50px;
+width: 35px;
+bottom: 15px;
+right: 15px;
+cursor: pointer;
+}
+.live-stock-item-counter{
+
+border-radius: 50px;
+align-items: center;
+bottom: 15px;
+right: 15px;
+display: flex;
+gap: 10px;
+padding: 6px;
+background-color: rgb(232, 239, 240); 
+margin-left: 100px;
+width: 110px;
+margin-top: -100px;
+}
+.live-stock-item-counter img{
+    width: 35px;
+}
